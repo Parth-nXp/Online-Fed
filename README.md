@@ -2,7 +2,7 @@
 
 This project implements online federated learning strategies for resource-constrained devices using random Fourier features (RFFs) for kernel regression. The model training is performed in real-time with continuous data streams, ensuring efficient local model updates and maintaining model performance.
 
-This simulation is inspired by the work of Anthony Kuh, titled "Real-Time Kernel Learning for Sensor Networks using Principles of Federated Learning," presented at the APSIPA Annual Summit and Conference 2021 in Tokyo, Japan. [Read the paper](https://doi.org/10.1109/IJCNN.2018.8489498).
+This simulation is inspired by the work of Anthony Kuh, titled "Real-Time Kernel Learning for Sensor Networks using Principles of Federated Learning," presented at the APSIPA Annual Summit and Conference 2021 in Tokyo, Japan. [Read the paper](https://ieeexplore.ieee.org/document/9689337).
 
 ## Project Structure
 
