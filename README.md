@@ -8,8 +8,10 @@ This simulation is inspired by the work of Anthony Kuh, titled "Real-Time Kernel
 
 The project is divided into three main scripts:
 
-1. **client.py**
-   - Contains the `Client` class, which generates synthetic data and calculates random Fourier features.
+1. `dataset_generator.py`
+   - **Purpose**: Contains the `DatasetGenerator` class, which generates synthetic data for federated learning. Each client’s input-output data is mapped to random Fourier features (RFF), and a corresponding label is generated.
+   - **Key Functionality**:
+       - `generate_dataset()`: Generates input-output pairs for each client using random Fourier features and an autoregressive model for the input.
 
 2. **federated_learning.py**
    - Contains the `federated_learning` function, which performs federated learning across multiple clients.
