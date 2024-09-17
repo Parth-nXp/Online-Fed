@@ -14,9 +14,9 @@ The project is divided into three main scripts:
        - `generate_dataset()`: Generates input-output pairs for each client using random Fourier features and an autoregressive model for the input.
 
 2. `experiment_runner.py`
-- **Purpose**: Contains the `ExperimentRunner` class, which orchestrates the federated learning experiments by combining dataset generation and federated learning.
-- **Key Functionality**:
-   - `run()`: Runs independent experiments, generates training and testing data, executes federated learning, and collects global loss histories for each experiment.
+   - **Purpose**: Contains the `ExperimentRunner` class, which orchestrates the federated learning experiments by combining dataset generation and federated learning.
+   - **Key Functionality**:
+      - `run()`: Runs independent experiments, generates training and testing data, executes federated learning, and collects global loss histories for each experiment.
 
 
 3. **main.py**
