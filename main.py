@@ -14,7 +14,7 @@ def main():
         num_participating_clients=20,   # Number of clients participating in each round
         learning_rate=0.55,             # Learning rate for local updates
         num_epochs=10,                  # Number of local training epochs
-        independent_experiments=1       # Number of independent experiments to run
+        independent_experiments=500       # Number of independent experiments to run
     )
 
     # Run the experiment and get the global loss history
