@@ -6,7 +6,7 @@ This simulation is inspired by the work of Anthony Kuh, titled "Real-Time Kernel
 
 ## Project Structure
 
-The project is divided into three main scripts:
+The project is divided into four main scripts:
 
 1. `dataset_generator.py`
    - **Purpose**: Contains the `DatasetGenerator` class, which generates synthetic data for federated learning. Each client’s input-output data is mapped to random Fourier features (RFF), and a corresponding label is generated.
