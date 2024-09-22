@@ -37,7 +37,7 @@ The project is divided into four main scripts:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Online-Fed.git
+    git clone https://github.com/Parth-nXp/Online-Federated-Learning.git
     cd Online-Fed
     ```
 
